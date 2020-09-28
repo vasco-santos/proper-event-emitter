@@ -1,0 +1,15 @@
+{
+  "name": "proper-event-emitter",
+  "version": "0.0.0",
+  "description": "Event emitter extension to handle event errors by throwing them in the global context",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vasco Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vasco-santos/proper-event-emitter/issues"
+  },
+  "homepage": "https://github.com/vasco-santos/proper-event-emitter#readme"
+}
