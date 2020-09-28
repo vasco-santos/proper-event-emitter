@@ -3,13 +3,29 @@
   "version": "0.0.0",
   "description": "Event emitter extension to handle event errors by throwing them in the global context",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Vasco Santos",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/vasco-santos/proper-event-emitter/issues"
+  "bugs": "https://github.com/vasco-santos/proper-event-emitter/issues",
+  "homepage": "https://github.com/vasco-santos/proper-event-emitter#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vasco-santos/proper-event-emitter.git"
   },
-  "homepage": "https://github.com/vasco-santos/proper-event-emitter#readme"
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "aegir test -t node -t browser",
+    "test:browser": "aegir test -t browser",
+    "test:node": "aegir test -t node",
+    "lint": "aegir lint",
+    "release": "aegir release --docs",
+    "release-minor": "aegir release --type minor --docs",
+    "release-major": "aegir release --type major --docs",
+    "build": "aegir build"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "aegir": "^26.0.0",
+    "p-defer": "^3.0.0"
+  }
 }
