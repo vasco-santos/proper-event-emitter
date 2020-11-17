@@ -25,7 +25,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "aegir": "^26.0.0",
+    "aegir": "^28.2.0",
     "p-defer": "^3.0.0"
   },
   "contributors": [
