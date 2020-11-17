@@ -6,8 +6,9 @@ class ProperEventEmitter extends EventEmitter {
   /**
    * Synchronously calls each of the listeners registered for the event named eventName,
    * in the order they were registered, passing the supplied arguments to each.
+   *
    * @param {string} eventName
-   * @param {*} arg
+   * @param {...any} args
    * @returns {boolean}
    */
   emit (eventName, ...args) {
