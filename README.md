@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/vasco-santos/proper-event-emitter.svg?branch=master)](https://travis-ci.org/vasco-santos/proper-event-emitter)
 [![dependencies Status](https://david-dm.org/vasco-santos/proper-event-emitter/status.svg)](https://david-dm.org/vasco-santos/proper-event-emitter)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Downloads](https://img.shields.io/npm/dm/proper-event-emitter.svg)](https://www.npmjs.com/package/proper-event-emitter)
 [![codecov](https://img.shields.io/codecov/c/github/vasco-santos/proper-event-emitter.svg?style=flat-square)](https://codecov.io/gh/vasco-santos/proper-event-emitter)
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/vasco-santos/proper-event-emitter/ci?label=ci&style=flat-square)](https://github.com/vasco-santos/proper-event-emitter/actions?query=branch%3Amaster+workflow%3Aci+)
 
